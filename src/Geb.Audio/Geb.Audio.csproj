@@ -42,7 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decoders\AbstractDecoder.cs" />
+    <Compile Include="Decoders\IResultProducer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Props\IConfigurable.cs" />
+    <Compile Include="Props\PropertyException.cs" />
+    <Compile Include="Props\PropertySheet.cs" />
+    <Compile Include="Results\ResultArgs.cs" />
+    <Compile Include="Search\ISearchManager.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\LogMath.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
