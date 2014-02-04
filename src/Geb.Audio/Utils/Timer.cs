@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Geb.Audio.FrontEnds
+namespace Geb.Audio.Utils
 {
-    public interface IData
+    public class Timer
     {
     }
 }
