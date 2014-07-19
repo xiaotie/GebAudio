@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geb.Audio", "src\Geb.Audio\Geb.Audio.csproj", "{B5131C85-CC77-4BFB-A3CB-596D6DC68634}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geb.Audio.Test", "src\Geb.Audio.Test\Geb.Audio.Test.csproj", "{EF0A2EEF-590D-4545-ABA6-869186E08AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{B5131C85-CC77-4BFB-A3CB-596D6DC68634}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5131C85-CC77-4BFB-A3CB-596D6DC68634}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5131C85-CC77-4BFB-A3CB-596D6DC68634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0A2EEF-590D-4545-ABA6-869186E08AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0A2EEF-590D-4545-ABA6-869186E08AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0A2EEF-590D-4545-ABA6-869186E08AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0A2EEF-590D-4545-ABA6-869186E08AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

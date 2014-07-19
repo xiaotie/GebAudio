@@ -47,6 +47,7 @@
     <Compile Include="FrontEnds\Data.cs" />
     <Compile Include="FrontEnds\DataProcessingException.cs" />
     <Compile Include="FrontEnds\DoubleData.cs" />
+    <Compile Include="FrontEnds\EndPoint\AbstractVoiceActivityDetector.cs" />
     <Compile Include="FrontEnds\FloatData.cs" />
     <Compile Include="FrontEnds\IData.cs" />
     <Compile Include="FrontEnds\IDataProcessor.cs" />
@@ -66,7 +67,6 @@
     <Compile Include="Utils\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FrontEnds\EndPoint\" />
     <Folder Include="FrontEnds\Features\" />
     <Folder Include="FrontEnds\Filters\" />
     <Folder Include="FrontEnds\Transforms\" />
